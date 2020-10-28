@@ -12,7 +12,7 @@ var score=0;
 var gameOver,gameOverImg
 var restart, restartImg;
 
-var JumpSound, dieSound, checkPointSound
+var jumpSound, dieSound, checkPointSound
 
 
 function preload(){
@@ -33,7 +33,7 @@ function preload(){
   gameOverImg = loadImage("gameOver.png");
   restartImg = loadImage("restart.png");
 
-  JumpSound=loadSound("jump.mp3)
+  jumpSound=loadSound("jump.mp3)
   dieSound=loadSound("die.mp3")
   checkPointSound=loadSound("checkPoint.mp3")
 }
